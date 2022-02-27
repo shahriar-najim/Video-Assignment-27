@@ -1,0 +1,116 @@
+@media(max-width:1366px){
+    .fixed-with {
+        margin: auto;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-left: 20px;
+        padding-right: 20px !important;
+        box-sizing: border-box;
+    }
+    .header {
+        background-color: #0f3f55be;
+        padding: 10px 0;
+    }
+}
+@media(max-width:1010px){
+    .header-left {
+        width: 100%;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .header-right {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right ul {
+        text-align: center;
+    }
+    .service-item h3 {
+        font-size: 25px;
+    }
+}
+@media(max-width:890px){
+    .service-item h3 {
+        font-size: 22px;
+    }
+}
+@media(max-width:815px){
+    .banner {
+        padding: 250px 0;
+    }
+    .service-item {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .blog-left-content {
+        width: 100%;
+    }
+    .blog-left-notificaiton {
+        width: 100%;
+    }
+    .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-right {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .social-menu {
+        text-align: center;
+    }
+}
+@media(max-width:750px){
+    .header-right ul li a {
+        padding: 0px 20px;
+        line-height: 60px;
+        border-right: none;
+    }
+    .banner {
+        padding: 200px 0;
+    }
+    .banner-caption h4 {
+        font-size: 30px; 
+    }
+}
+@media(max-width:620px){
+    .header-right ul li a {
+        padding: 0px 10px;
+        line-height: 60px;
+        border-right: none;
+    }
+    .banner {
+        padding: 150px 0;
+    }
+    .banner-caption h1 {
+        font-size: 27px;
+    }
+    .banner-caption h4 {
+        font-size: 30px;
+    }
+    .banner-caption h4 {
+        width: 383px; 
+    }
+}
+@media(max-width:600px){
+    .service-item {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+@media(max-width:480px){
+    .header-right ul li a {
+        padding: 0px 8px;
+        font-size: 18px;
+        line-height: 55px;
+    }
+    .banner-caption h1 {
+        font-size: 22px;
+    }
+    .banner-caption h4 {
+        font-size: 25px;
+    }
+    .banner-caption h4 {
+        width: 300px; 
+    }
+}
